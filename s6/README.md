@@ -1,13 +1,14 @@
 # 概要
 
 ## 6-8 演習: 画面に "Hi" と表示しよう
+
 - 以下のアセンブリを `hi_6-1.s` に記述する。
 
 ```asm
 global main
 
 main:
-  push 0x00006948
+  push 0x0a216948
   mov eax, 0x4
   mov ebx, 0x1
   mov ecx, esp
